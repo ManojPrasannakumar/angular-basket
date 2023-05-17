@@ -1,0 +1,11 @@
+<div class="fruit_menu">
+<mat-list role="list">
+       <mat-list-item role="listitem" *ngFor="let bag of allItem">
+        <div class ="span_lay" fxLayout="row" fxLayoutAlign="space-around center" >
+                <span>Name: {{bag.name}}</span>
+                <span>Qty: {{bag.qty}}</span>
+                <span>Total: {{bag.qty*bag.amt}}</span>
+        </div>
+        </mat-list-item>
+</mat-list>
+</div>

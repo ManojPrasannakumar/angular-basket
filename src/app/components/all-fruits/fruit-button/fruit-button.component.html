@@ -1,0 +1,5 @@
+<div fxLayout="row" fxLayoutAlign="none stretch" class="fruit-bt_design">
+<button mat-raised-button (click)="addFruit()" [color]="item.type === 'veg' ? 'accent' : 'primary'" 
+ fxFlex="100" >{{item.name}}</button>
+ <!-- *ngIf="item" fxLayout="row" fxLayoutAlign="space-evenly end"  *ngIf="vegName" -->
+</div>

@@ -1,0 +1,10 @@
+<h1>Welcome, Add your items</h1>
+<div fxLayout="column" fxLayoutAlign="space-between stretch" class="fruitStyle" >
+  <div>
+    <app-fruit-button *ngFor="let item of allFruits" [item]="item" />
+  </div>
+  <div>
+    <app-fruit-button *ngFor="let item of allVeggies" [item]="item" /> 
+  </div>
+</div>
+<!-- vegName="beans" vegName="carrot" vegName="beetroot" vegName="capsicum" vegName="spinach"-->
